@@ -8,3 +8,10 @@ np_baseball = np.array(baseball)
 
 # Print out type of np_baseball
 print(type(np_baseball))
+
+name = "Jherico"
+numberOfLesson = 5
+numberOflessonRemaining = 10
+
+print("Name: " , name)
+print("Number of Lessons: " , numberOfLesson)
