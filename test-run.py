@@ -15,3 +15,19 @@ numberOflessonRemaining = 10
 
 print("Name: " , name)
 print("Number of Lessons: " , numberOfLesson)
+
+tickets = int(input("How many tickets do you have?"))
+
+if tickets == 0;
+  print("your queue is clean")
+else:
+  print("you still have", tickets, " open tickets.")
+
+
+tickets = int(input("How many tickets do you have?"))
+
+if tickets >= 10;
+  print("Daily goal reached!")
+else:
+  print("Keep going!")
+
