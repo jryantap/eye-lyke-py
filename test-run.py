@@ -31,3 +31,11 @@ if tickets >= 10;
 else:
   print("Keep going!")
 
+calls = int(input("How many calls did you handle? "))
+
+if calls >= 15:
+    print("Goal exceeded!")
+elif calls >= 10:
+    print("Goal reached!")
+else:
+    print("Keep going!")
