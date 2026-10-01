@@ -39,3 +39,13 @@ elif calls >= 10:
     print("Goal reached!")
 else:
     print("Keep going!")
+
+# lesson 
+department = input ("department: ").lower()
+multiple_users = input ("multiple: ").lower()
+
+if department == "clinical" and multiple_users == "yes":
+  print("Escalate the issue.")
+else: 
+  print("Not an outage.")
+
