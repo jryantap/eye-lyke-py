@@ -50,9 +50,17 @@ else:
   print("Not an outage.")
 
 # lesson 7 review
-applications = ["Epic", "Outlook", 'Duo"]
+applications = ["Epic", "Outlook", "Duo"]
 for apps in applications;
   print (applications)
+
+open_tickets = ["ticket_1", "ticket_2", "ticket_3"]
+
+for ticket in open_tickets;
+  print("Reviewing ticket: ", ticket)
+
+print("Total Tickets: ", len(open_tickets))
+
 
 
 
