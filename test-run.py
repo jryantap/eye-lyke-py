@@ -49,3 +49,10 @@ if department == "clinical" and multiple_users == "yes":
 else: 
   print("Not an outage.")
 
+# lesson 7 review
+applications = ["Epic", "Outlook", 'Duo"]
+for apps in applications;
+  print (applications)
+
+
+
