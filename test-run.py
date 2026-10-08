@@ -9,6 +9,7 @@ np_baseball = np.array(baseball)
 # Print out type of np_baseball
 print(type(np_baseball))
 
+## Concept Review ##
 name = "Jherico"
 numberOfLesson = 5
 numberOflessonRemaining = 10
@@ -61,6 +62,16 @@ for ticket in open_tickets;
 
 print("Total Tickets: ", len(open_tickets))
 
+# lesson 8 review 
+commands = ["ping", "ipconfig", "tracert"]
+for number, command in enumerate(commands);
+  print(number, command)
 
+tickets = ["INC1001", "INC1002", "INC1003"]
+for number, ticket in enumerate(tickets);
+  print(number, "-", ticket)
 
-
+applications = ["Epic", "WebEx", "VMware"]
+for number, apps in enumerate(applications, start = 1);
+  print (number, "-", apps)
+  
