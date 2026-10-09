@@ -19,7 +19,7 @@ print("Number of Lessons: " , numberOfLesson)
 
 tickets = int(input("How many tickets do you have?"))
 
-if tickets == 0;
+if tickets == 0:
   print("your queue is clean")
 else:
   print("you still have", tickets, " open tickets.")
@@ -27,7 +27,7 @@ else:
 
 tickets = int(input("How many tickets do you have?"))
 
-if tickets >= 10;
+if tickets >= 10:
   print("Daily goal reached!")
 else:
   print("Keep going!")
@@ -52,26 +52,26 @@ else:
 
 # lesson 7 review
 applications = ["Epic", "Outlook", "Duo"]
-for apps in applications;
+for apps in applications:
   print (applications)
 
 open_tickets = ["ticket_1", "ticket_2", "ticket_3"]
 
-for ticket in open_tickets;
+for ticket in open_tickets:
   print("Reviewing ticket: ", ticket)
 
 print("Total Tickets: ", len(open_tickets))
 
 # lesson 8 review 
 commands = ["ping", "ipconfig", "tracert"]
-for number, command in enumerate(commands);
+for number, command in enumerate(commands):
   print(number, command)
 
 tickets = ["INC1001", "INC1002", "INC1003"]
-for number, ticket in enumerate(tickets);
+for number, ticket in enumerate(tickets):
   print(number, "-", ticket)
 
 applications = ["Epic", "WebEx", "VMware"]
-for number, apps in enumerate(applications, start = 1);
+for number, apps in enumerate(applications, start = 1):
   print (number, "-", apps)
   
