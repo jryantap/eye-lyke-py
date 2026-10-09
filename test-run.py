@@ -1,13 +1,19 @@
 # Import the numpy package as np
-import numpy as np
+try:
+    import numpy as np
+except ImportError:
+    np = None
 
 baseball = [180, 215, 210, 210, 188, 176, 209, 200]
 
-# Create a numpy array from baseball: np_baseball
-np_baseball = np.array(baseball)
+if np is not None:
+    # Create a numpy array from baseball: np_baseball
+    np_baseball = np.array(baseball)
 
-# Print out type of np_baseball
-print(type(np_baseball))
+    # Print out type of np_baseball
+    print(type(np_baseball))
+else:
+    print("NumPy is not installed. Install it with: pip install numpy")
 
 ## Concept Review ##
 name = "Jherico"
@@ -75,3 +81,9 @@ applications = ["Epic", "WebEx", "VMware"]
 for number, apps in enumerate(applications, start = 1):
   print (number, "-", apps)
   
+password = ""
+while password != "pythhon123":
+   password = input("Enter your password: ").lower()
+print("Access granted!")
+
+
