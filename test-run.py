@@ -80,10 +80,21 @@ for number, ticket in enumerate(tickets):
 applications = ["Epic", "WebEx", "VMware"]
 for number, apps in enumerate(applications, start = 1):
   print (number, "-", apps)
+
+#lesson 9 review
   
 password = ""
-while password != "pythhon123":
+while password != "python123":
    password = input("Enter your password: ").lower()
 print("Access granted!")
 
+#lesson 10 
+def check_ticket_count(ticket_count):
+   if ticket_count == 0:
+      return "No tickets to review."
+   else:
+      return "You have tickets to review."
+
+ticket_count = int(input("Enter the number of tickets: "))
+check_ticket_count(ticket_count)
 
