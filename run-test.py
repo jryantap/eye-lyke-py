@@ -15,3 +15,10 @@ def show_command(command):
 
 show_command("ping")
 show_command("prints")
+
+def count_app(app_list):
+    print("applications: ", app_list)
+
+applications = ["Epic", "Outlook", "Duo", "Vmware"]
+count_app(applications)
+
