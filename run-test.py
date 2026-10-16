@@ -16,9 +16,12 @@ def show_command(command):
 show_command("ping")
 show_command("prints")
 
+# Create a function named count_apps() that accepts a list and returns the number of items in it. Use the function with this list:
 def count_app(app_list):
     print("applications: ", app_list)
-
+    print(len(app_list))
+    
 applications = ["Epic", "Outlook", "Duo", "Vmware"]
 count_app(applications)
+
 
