@@ -25,3 +25,14 @@ applications = ["Epic", "Outlook", "Duo", "Vmware"]
 count_app(applications)
 
 
+# lesson
+ticket = { "name": "Jherico", 
+           "department": "ESD",
+           "location": "Remote"
+           }
+
+print("Ticket Details:")
+
+for field, value in ticket.items():
+    print(field, ":", value)
+
