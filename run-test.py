@@ -36,3 +36,18 @@ print("Ticket Details:")
 for field, value in ticket.items():
     print(field, ":", value)
 
+# Dictionaries
+tickets = [
+    {"number": "INC1001", "status": "Open"},
+    {"number": "INC1002", "status": "Closed"},
+    {"number": "INC1003", "status": "Open"}
+]
+
+for ticket in tickets:
+    print(ticket["number"], "-", ticket["status"])
+
+for ticket in tickets:
+    if(ticket["status"] == "Open"):
+        print("Needs attention: ", ticket["number"])
+
+        
