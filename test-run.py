@@ -98,7 +98,3 @@ def check_ticket_count(ticket_count):
 ticket_count = int(input("Enter the number of tickets: "))
 check_ticket_count(ticket_count)
 
-
-
-
-
