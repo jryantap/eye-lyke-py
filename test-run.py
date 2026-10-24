@@ -98,3 +98,34 @@ def check_ticket_count(ticket_count):
 ticket_count = int(input("Enter the number of tickets: "))
 check_ticket_count(ticket_count)
 
+computers = [
+    {"name": "PC-1001", "status": "Online"},
+    {"name": "PC-1002", "status": "Offline"},
+    {"name": "PC-1003", "status": "Offline"}
+]
+
+offline_count = 0;
+
+for computer in computers:
+   if computer["status"] == "Offline":
+      offline_count +1;
+print("Offlinec computers: ", offline_count)
+
+tickets = [
+    {"number": "INC1001", "priority": "High"},
+    {"number": "INC1002", "priority": "Low"},
+    {"number": "INC1003", "priority": "High"},
+    {"number": "INC1004", "priority": "Medium"}
+]
+
+ticket_priority = 0
+
+for ticket in tickets:
+   if ticket["priority"] == "High":
+    ticket_priority +=1;
+print("Number of High Priority tickets = ", ticket_priority)
+
+
+
+
+      
