@@ -50,4 +50,18 @@ for ticket in tickets:
     if(ticket["status"] == "Open"):
         print("Needs attention: ", ticket["number"])
 
+computers = [
+    {"name": "PC-1001", "status": "Online"},
+    {"name": "PC-1002", "status": "Offline"},
+    {"name": "PC-1003", "status": "Online"},
+    {"name": "PC-1004", "status": "Online"},
+    {"name": "PC-1005", "status": "Offline"}
+]
+
+for computer in computers:
+    if computer ["status"] == "Online":
+        online_count += 1
+print(online_count)
+
+
         
